@@ -50,3 +50,4 @@ const setLike=objeto=> {
 
     console.log(like[boton.id]);
 }
+
