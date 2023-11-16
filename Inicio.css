@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primeraBarra {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 3.5vh;
+    background-color: yellowgreen;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+}
+
+.svg:hover {
+    width: 30px;
+    height: 30px;
+}
+
+.redes {
+    margin-right: 15px;
+}
+
+.redessecc1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+.redessecc2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+}
