@@ -3,11 +3,15 @@
     padding: 0;
 }
 
+body {
+    width: 98.75vw;
+}
+
 .primeraBarra {
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    height: 3.5vh;
+    width: 100%;
+    height: 4.5vh;
     background-color: yellowgreen;
     text-align: center;
     align-items: center;
@@ -17,20 +21,23 @@
 .svg {
   width: 20px;
   height: 20px;
+  transition: transform 500ms;
+  transition-timing-function: 
+  cubic-bezier(.75, -3, .25, 4);
 }
 
 .svg:hover {
-    width: 30px;
-    height: 30px;
+    transform: scale(1.25)
 }
 
 .redes {
     margin-right: 15px;
+
 }
 
 .redessecc1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 50%;
     height: 100%;
     text-align: center;
@@ -49,3 +56,161 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+h5 {
+    margin: 0;
+}
+
+.komo {
+    width: 100%;
+}
+
+.text2 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.text2h1 {
+    font-size: 20px;
+}
+
+.pgreen {
+    color: yellowgreen;
+}
+
+.ps {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgartic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgs {
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: gray 2px solid;
+
+}
+
+.imgss {
+    width: 250px;
+    
+}
+
+.div1 {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div2 {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div11 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.div22 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: gray;
+}
+
+.footer {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: #3c3c3c;
+}
+
+.seccion{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsec {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+.subsec2 {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+.subsec3 {
+    height: 9.09%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+.telefono {
+    color: yellowgreen;
+    scale: 2.7;
+}
+
+.parrafos {
+    color: gray;
+    width: 70%;
+}
+
