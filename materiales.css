@@ -1,0 +1,242 @@
+.Titulo1{
+    text-align: center;
+    margin-top: 4%;
+    background-color: rgba(190, 223, 125, 0.829);
+ }
+ .Titulo2{
+    text-align: center;
+    background-color: rgba(190, 223, 125, 0.829);
+ }
+ .Barniz{
+    text-align: center;
+    margin-top: 4%;
+ }
+ .Pino{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ 
+ .Pino:hover {
+    transform: scale(1.1);
+ }
+ .Roble{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ 
+ .Roble:hover{
+    transform: scale(1.1);
+ }
+ 
+ .Cedro{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Cedro:hover {
+    transform: scale(1.1);
+ }
+ 
+ .Teca{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Teca:hover {
+    transform: scale(1.1);
+ }
+ 
+ .Cipres{
+    border-radius: 50%;  
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4); 
+ }
+ .Cipres:hover {
+    transform: scale(1.1);
+ }
+ 
+ .contrachapada{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .contrachapada:hover {
+    transform: scale(1.1);
+ }
+ .Miel{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Miel:hover {
+    transform: scale(1.1);
+ }
+ .Caramelo{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Caramelo:hover {
+    transform: scale(1.1);
+ }
+ .Wengue{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Wengue:hover {
+    transform: scale(1.1);
+ }
+ .nogal{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .nogal:hover {
+    transform: scale(1.1);
+ }
+ .jacaranda{
+    border-radius: 50%; 
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .jacaranda:hover {
+    transform: scale(1.1);
+ }
+ .Mate{
+    border-radius: 50%;
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Mate:hover {
+    transform: scale(1.1);
+ }
+ .Brillante{
+    border-radius: 50%;
+    border: 5px rgb(0, 0, 0) solid;
+    transition: transform 500ms;
+    transition-timing-function:
+    cubic-bezier(.75, -3, .25, 4);
+ }
+ .Brillante:hover {
+    transform: scale(1.1);
+ }
+ .Tmadera1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+ }
+ .Tmadera2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .Laca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .Tintes1{
+    display: flex;
+    justify-content: space-around;
+ }
+ .Tintes2{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
+ .container{
+    margin-top: 3%;
+ }
+ 
+ 
+ 
+ 
+ 
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .primeraBarra {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 3.5vh;
+    background-color: yellowgreen;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .svg {
+  width: 20px;
+  height: 20px;
+ }
+ 
+ .svg:hover {
+    width: 30px;
+    height: 30px;
+ }
+ 
+ .redes {
+    margin-right: 15px;
+ }
+ 
+ .redessecc1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+ }
+ 
+ .redessecc2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ 
+ .kk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
